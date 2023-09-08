@@ -7,8 +7,8 @@
 }
 .image-container {
     position: fixed;
-    top: 50%;
-    right: 425px;
+    top: 47.8%;
+    right: 423.10px;
     transform: translateY(-50%);
     z-index: 999;
 }
