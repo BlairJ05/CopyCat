@@ -1,0 +1,160 @@
+.yelp{
+    display: flex;
+    width: 70px;
+    height: 34px;
+    padding:0px 15.3px;
+    
+}
+.image-container {
+    position: fixed;
+    top: 50%;
+    right: 425px;
+    transform: translateY(-50%);
+    z-index: 999;
+}
+header{
+    display: flex;
+    padding: 22px 0px 30px;
+    background-color: #fff;
+    border-bottom: .2px solid rgba(83, 81, 81, 0.098);
+}
+
+.signup-wrapper {
+    padding: 50%;
+    overflow: hidden;
+    background-color: rgba(105, 100, 100, 0.486);
+    margin:0%;
+    font: inherit;
+    vertical-align: baseline;
+    text-align: center;
+}
+
+.signup-wrapper, h2 {
+    font-size: 22px;
+}
+
+h2{
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    padding-left: 30.63%;
+    padding-top:8.65%;
+    color: #D32323;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.P{
+    margin-top: 0%;
+    margin-right:60% ;
+    margin-left:0% ;
+    margin-bottom: 0%;
+    padding-top: 0%;
+    padding-right: 1%;
+    padding-left: .1%;
+    color: #030303;
+    font-style: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+a, a:hover, a:visited{
+    color:#0073BB;
+    font-style: bold;
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+.S {
+    text-align: center;
+    margin-top: 0%;
+    margin-right:31% ;
+    margin-left:26% ;
+    margin-bottom: 0px;
+    padding-top: 0%;
+    padding-right: 25%;
+    padding-left: 0%;
+    color: #030303;
+    font-style: bold;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttons {
+    background-color: #fff;
+    border: solid rgba(128, 128, 128, 0.365) .1pt;
+    border-radius:2%;
+    height: 40px;
+    width:300px;
+    margin-top: 18px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding:0%;
+    font-size:10pt;
+}
+.applebutton{
+    background-color: #fff;
+    border: solid rgba(128, 128, 128, 0.365) .1pt;
+    border-radius:2%;
+    height: 44px;
+    width:300px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding:0%;
+    font-size:10pt;
+}
+.OR{
+    height: 47px;
+    width:300px;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding:0%;
+    font-size:10pt;
+}
+.buttons img, .applebutton img, .OR{
+    height: 100%;
+    width:100%;
+}
+.buttons:hover{
+    background-color: #91c6f217;
+}
+
+.email, .password{
+    height: 25px;
+    width:300px;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding:0%;
+    font-size:10pt;
+}
+.password:active, .email:active{
+    box-shadow: 0px 0px 5px #069cf3;
+}
+.forgot{
+    margin-right: 0px;
+    margin-left: 68%;
+    color: #0073BB
+}
+.Login{
+    border-radius:2%;
+    height: 40px;
+    width:300px;
+    margin-top: 8px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding:0%;
+    color: #fff;
+    background: #d32323;
+    border: 1px solid #d32323;
+    background-image: none;
+    background-repeat: no-repeat;
+    transition: all 0.6s;
+    background-position: 50% 50%;
+    background-size: 15000px 15000px;
+}
+.new{
+    margin-right: 0px;
+    margin-left: 60%;
+    color: #838586bb 
+}
